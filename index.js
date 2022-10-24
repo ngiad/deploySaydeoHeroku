@@ -7,6 +7,7 @@ import LoginRouter from "./src/Router/Login.js";
 import NewsRouter from "./src/Router/News.js";
 import OderRouter from "./src/Router/Oder.js";
 import ContactRouter from "./src/Router/Contact.js";
+import path from "path";
 
 
 
@@ -16,7 +17,15 @@ const URL =   "mongodb+srv://Ngiad:Ngiad001@cluster0.2ts8aja.mongodb.net"
 
 app.use(cors())
 app.use(bodyParser.json())
-const PORT = 7000
+
+if(process.env.NODE_ENV === "production"){
+    app.use(express.static("./client/build"))
+
+    app.get("*",(req,res) =>{
+        res.sendFile(path.resolve(__dirname,"./client","build","index.html"))
+    })
+}
+const PORT = process.env.PORT || 8000
 
 
 app.use("/products",ProductRouter)
