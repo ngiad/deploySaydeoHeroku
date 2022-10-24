@@ -1,0 +1,47 @@
+
+.PageAbout{
+    cursor: default;
+    margin-top: 24px;
+}
+.contenerAbout{
+    display: flex;
+    justify-content: center;
+    padding: 0 100px;
+    /* padding: 24px; */
+    margin: 24px auto;
+    max-width: 1140px;
+}
+
+.contenerAbout > .left{
+    flex: 4;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: justify;
+    margin-right: 12px;
+}
+
+.contenerAbout > .left > h1{
+    margin-bottom: 12px;
+}
+.contenerAbout > .left > p{
+    width: 750px;
+}
+.imgDaychuyensanxuat{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 8px 0;
+}
+
+.imgDaychuyensanxuat img{
+    width: 750px;
+    border-radius: 4px;
+}
+
+.imgDaychuyensanxuat >span{
+    opacity: 0.8;
+    font-size: 13px;
+}

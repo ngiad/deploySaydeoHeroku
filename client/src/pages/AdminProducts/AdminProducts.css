@@ -1,0 +1,100 @@
+.mainAdminProducts >.NewProduct{
+    width: 1140px;
+    margin: 24px auto;
+    border-bottom: 2px solid #555555;
+}
+
+.mainAdminProducts >.NewProduct >form{
+    display: flex;
+    flex-direction: column;
+}
+
+.mainAdminProducts >.NewProduct >form>input{
+    padding: 4px 8px;
+    width: 450px;
+}
+
+.mainAdminProducts >.NewProduct >form>button{
+    width: 80px;
+    padding: 4px 8px;
+    margin: 16px 0;
+    background-color: red;
+    color: #fff;
+    border:none ;
+    border-radius: 4px ;
+    cursor: pointer;
+}
+
+.mainAdminProducts >.NewProduct >form>button:hover{
+    opacity: 0.8;
+}
+.MainListProductsAdmin{
+    width: 1140px;
+    margin: 24px auto;
+}
+
+.MainListProductsAdmin > .Products{
+    width: 100%;
+    display: grid;
+    grid-template-columns:auto auto;
+}
+.MainListProductsAdmin .Product{
+    margin: 12px;
+    padding: 12px;
+}
+.MainListProductsAdmin .Product  img{
+    width: 80px;
+}
+
+.MainListProductsAdmin .Product .updateProduct form{
+    display: flex;
+    flex-direction: column;
+}
+
+.MainListProductsAdmin .Product .updateProduct form input{
+    width: 350px;
+    padding: 8px 4px;
+}
+
+.itemProduct{
+    width: 300px;
+    margin: 4px 0px;
+    text-align: justify;
+    line-height: 1.6;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    cursor: default;
+}
+.MainListProductsAdmin .Product .updateProduct form button{
+    width: 80px;
+    padding: 4px 8px;
+    margin: 16px 0;
+    background-color: red;
+    color: #fff;
+    border:none ;
+    border-radius: 4px ;
+    cursor: pointer;
+}
+
+.UpdateProductBtn{
+    padding: 12px 8px;
+    margin: 16px 12px 16px 0px;
+    background-color: rgb(76, 145, 76);
+    color: #fff;
+    border:none ;
+    border-radius: 4px ;
+    cursor: pointer; 
+}
+
+.DeleteProductBtn{
+    padding: 12px 8px;
+    margin: 16px 12px 16px 0px;
+    background-color: red;
+    color: #fff;
+    border:none ;
+    border-radius: 4px ;
+    cursor: pointer; 
+}
+

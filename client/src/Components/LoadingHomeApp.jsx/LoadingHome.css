@@ -1,0 +1,14 @@
+.Loading60{
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 4px;
+    border-radius: 4px;
+}
+
+.Loading60 > .line{
+    width: 60%;
+    background-color: rgb(100, 230, 122);
+    height: 4px;
+}
+

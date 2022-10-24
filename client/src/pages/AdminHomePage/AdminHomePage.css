@@ -1,0 +1,38 @@
+.newOder{
+    margin: 24px 0;
+    padding: 0 100px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.newOder > h1{
+    width: 100%;
+    text-align: center;
+}
+
+.newOder ul{
+    display: block;
+    background-color: antiquewhite;
+    padding: 24px;
+    margin: 0 24px 12px;
+}
+
+.green{
+    background-color: rgb(48, 224, 48);
+    color: #fff;
+}
+
+.red{
+    background-color: red;
+    color: #fff;
+}
+
+.AdminHome{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.AdminHome h1{
+    margin: 24px;
+    text-align: center;
+}

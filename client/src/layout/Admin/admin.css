@@ -1,0 +1,29 @@
+.HeaderAdmin{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #df2228;
+    padding: 12px;
+    color: #fff;
+}
+
+.backStore{
+    padding: 8px;
+    background-color: #fff;
+    color: black;
+    cursor: pointer;
+    border-radius: 8px;
+    font-weight: 600;
+}
+.HeaderAdmin > ul{
+    display: flex;
+    list-style: none;
+}
+
+.HeaderAdmin > ul > li{
+    margin: 0 24px;
+}
+
+.HeaderAdmin > ul > li > a{
+    color: #fff;
+}

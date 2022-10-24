@@ -1,0 +1,26 @@
+.back{
+    height: 60px;
+    background-color: #ddd;
+}
+.back > ul{
+    list-style: none;
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.back > ul > li > a{
+    color: black;
+    margin: 0 12px;
+}
+
+.back > ul > li:nth-child(1){
+    display: flex;
+    align-items: center;
+}
+
+.back > ul > li:nth-child(1)::after{
+    content: "/";
+    color: #333;
+}

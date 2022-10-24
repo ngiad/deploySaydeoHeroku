@@ -1,0 +1,46 @@
+.mainContact .contener{
+    max-width: 1140px;
+    margin: 24px auto;
+    display: flex;
+}
+
+.mainContact h1{
+    position: relative;
+    margin-bottom: 24px;
+}
+
+.mainContact h1::after{
+    content: "";
+    position: absolute;
+    width: 170px;
+    height: 4px;
+    background-color: red;
+    bottom:-4px;
+    left: 0;
+}
+
+.mainContact  .left{
+    flex: 4;
+}
+.mainContact .contener .left h2{
+    margin: 24px 0;
+}
+.mainContact .contener .left form{
+    display: flex;
+    flex-direction: column;
+    margin: 24px 0;
+}
+
+.mainContact .contener .left form input{
+    width: 600px;
+    padding: 12px;
+    margin: 4px 0;
+}
+
+.mainContact .contener .left form button{
+    padding: 4px;
+    background-color: black;
+    color: #fff;
+    width: 140px;
+    cursor: pointer;
+}

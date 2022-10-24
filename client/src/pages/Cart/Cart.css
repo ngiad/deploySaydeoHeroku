@@ -1,0 +1,168 @@
+.cart .NavNavigate{
+    margin: 24px 0;
+}
+
+.ContenerCart{
+    width: 1140px;
+    margin: 0 auto;
+    margin-bottom: 140px;
+}
+
+.contentCart{
+    margin: 24px 0;
+}
+
+#customers {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  .ProductCart{
+    margin: 24px 0;
+  }
+
+  #customers td, #customers th {
+    border: 2px solid #ddd;
+    padding: 8px;
+  }
+  
+  #customers tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #customers tr:hover {background-color: #ddd;}
+  
+  #customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+  }
+  .tableImg img{
+    width: 100px;
+    border-radius: 4px;
+  }
+  .titleProduct{
+    text-transform: uppercase;
+  }
+
+  .Amount{
+    padding: 4px;
+    width: 80px;
+  }
+  .priceByQuantity{
+    position: relative;
+  }
+  .deletabtnCart{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 4px;
+    border: none;
+    background-color: red;
+    color: #fff;
+    cursor: pointer;
+    transition: transform  0.3s ease-in-out;
+  }
+  .deletabtnCart:hover{
+    opacity: 0.8;
+    transform: scale(0.9);
+  }
+  .pay{
+    margin: 24px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .pay button{
+    display: block;
+    padding: 12px 8px;
+    background-color: #04AA6D;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .pay h2 span{
+    color: red;
+  }
+
+ .TableOder{
+    position: fixed;
+    z-index: 999;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: #ccc;
+    padding: 24px;
+    width: 1140px;
+
+ } 
+
+ .TableOder  form{
+  display: flex;
+  flex-direction: column;
+ }
+ .TableOder .Contener{
+  display: flex;
+ } 
+ .TableOder  form label{
+  margin: 12px 0;
+ }
+ .TableOder  form input{
+  width: 600px;
+  padding: 12px;
+ }
+ .ListProductCartOder{
+  display: flex;
+  flex-wrap: wrap;
+ }
+ .itemCardOder{
+  margin: 12px;
+ }
+ .itemCardOder img{
+    width: 100px;
+    border-radius: 4px;
+ }
+
+ .Xoder{
+  position: absolute;
+  top: 0;
+  right: 2px;
+  font-size: 24px;
+  color: red;
+  background-color: #ccc;
+  border: none;
+  cursor: pointer;
+ }
+
+ .price{
+  color: rgb(224, 39, 39);
+ }
+ .itemCardOder h4{
+  text-transform: uppercase;
+ }
+ .right{
+  margin-left: 12px;
+ }
+ .btnPay{
+    background: #8cca46;
+    padding: 7px 10px;
+    border-radius: 4px;
+    color: #fff;
+    margin-left: 38px;
+    cursor: pointer;
+    width: 100px;
+    margin-left: 65%;
+    border: none;
+ }
+
+.SelectPay > #cod{
+  width: 50px;
+  padding: 12px;
+}
+
+#bank{
+  width: 50px;
+  padding: 12px;
+}

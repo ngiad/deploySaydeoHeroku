@@ -1,0 +1,50 @@
+.Loading{
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 4px;
+    border-radius: 4px;
+}
+
+.Loading > .line {
+    background-color: rgb(100, 230, 122);
+    width: 90%;
+    height: 4px;
+}   
+.ProductSearch{
+    cursor: pointer;
+    display: flex;
+}
+.ProductSearch > img{
+    width: 100px;
+    border-radius: 12px;
+}
+
+.ProductSearch >div{
+    margin-left: 12px;
+}
+.ProductSearch >div>h3{
+    text-transform: uppercase;
+}
+.ProductSearch >div>p{
+    color: red;
+    margin: 8px 0;
+}
+
+.titleSearch{
+    width: 400px;
+    overflow: hidden;
+}
+.titleSearch > span{
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    cursor: default;
+    color: #555555;
+    font-size: 13px;
+}
+.btnSearch{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}

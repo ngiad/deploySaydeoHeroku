@@ -1,0 +1,50 @@
+.Footer >.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #df2228;
+    padding: 10px 0;
+    position: relative;
+    padding-bottom: 30px;
+  }
+  .Footer >.grid-container::after{
+    content: "Copyrigt © 2022 Công Ty TNHH Thực phẩm P&T Việt Nam . Thiết kế bởi : Trần Đại Nghĩa";
+    text-align: center;
+    position: absolute;
+    bottom: 2%;
+    left: 50%;
+    color: #fff;
+    transform: translateX(-50%);
+    opacity: 0.9;
+    font-size: 13px;
+  }
+ .Footer> .grid-container> .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    text-align: justify;
+  }
+
+  .Footer> .grid-container> .grid-item >h2{
+    font-size: 1.25rem;
+    margin-bottom: 12px;
+  }
+  .Footer> .grid-container> .grid-item > .listCf{
+    list-style-type: none;
+  }
+  .Footer> .grid-container> .grid-item >ul>li{
+    font-size: 1rem;
+  }
+
+  .ListCt_2{
+    margin-left: 14px;
+    cursor: pointer;
+  }
+
+  .contact{
+    list-style-type: none;
+  }
+  .contact > li > a{
+    text-decoration: none;
+    color: black;
+  }

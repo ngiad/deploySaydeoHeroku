@@ -1,0 +1,31 @@
+.NavNavigate{
+    margin: 24px 0;
+}
+
+
+.MainGuide .contener{
+    max-width: 1140px;
+    margin: 24px auto;
+    display: flex;
+}
+
+.MainGuide h1{
+    position: relative;
+    margin-bottom: 24px;
+}
+
+.MainGuide h1::after{
+    content: "";
+    position: absolute;
+    width: 170px;
+    height: 4px;
+    background-color: red;
+    bottom:-4px;
+    left: 0;
+}
+
+.MainGuide h2{
+    margin: 24px 0;
+}
+
+

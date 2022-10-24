@@ -1,0 +1,126 @@
+.wapNav{
+    height: 43px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #df2228 ;
+}
+
+.wapNav > .left > p{
+    display: flex;
+    align-items: center;
+    color: #fff;
+    cursor: default;
+}
+
+
+.wapNav > .right >ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+.wapNav > .right >ul >li{
+    margin: 0 12px;
+    line-height: 18px;
+    opacity: 1;
+}
+.wapNav > .right >ul >li:hover{
+    opacity: 0.8;
+}
+.wapNav > .right >ul >li >a{
+    color: #fff;
+    text-decoration: none;
+}
+.wapNav > .right >ul >li >img{
+    width: 28px;
+}
+
+.wapNav > .right >ul > .vi{
+    cursor: pointer;
+}
+
+.wapNav > .right >ul > .en{
+    cursor: pointer;
+}
+
+.boxNav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.boxNav > form{
+    margin: 0 80px;
+    position: relative;
+}
+
+.boxNav > form >input{
+    width: 630px;
+    height: 38px;
+    border-radius: 4px;
+    border: #df2228 1px solid;
+}
+.boxNav > form > button{
+    height: 38px;
+    width: 45px;
+    font-size: 18px;
+    font-weight: 700;
+    position: absolute;
+    right: 0;
+    background-color: #df2228;
+    color: #fff;
+    border: #df2228;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.boxNav > img{
+    width: 270px;
+}
+
+.DivbtnCart{
+    position: relative;
+}
+.btnCart{
+    font-size: 18px;
+    padding: 8px 20px;
+    font-weight: 300;
+    background: #fe9705;
+    border-radius: 15px;
+    color: white;  
+    border: #fe9705;
+}
+
+.amountCart{
+    position: absolute;
+    right: 0;
+    top: -4px;
+    display: block;
+    width: 16px;
+    height: 16px;
+    background-color: #df2228;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 12px;
+    text-align: center;
+}
+
+.wapMenu{
+    background-color: #df2228;
+    display: flex;
+    align-items: center;
+    height: 43px;
+}
+.wapMenu > ul{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.wapMenu > ul >li> a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.wapMenu > ul >li> a:hover{
+    opacity: 0.9;
+}

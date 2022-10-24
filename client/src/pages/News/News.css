@@ -1,0 +1,41 @@
+.NavNavigate{
+    margin: 24px 0;
+}
+
+.mainNews .connener{
+    display: flex;
+    max-width: 1140px;
+    margin: 24px auto;
+}
+
+.mainNews .connener .left h1{
+    margin-bottom: 12px;
+}
+
+.NewsContener{
+    display: flex;
+    margin: 12px 0;
+    cursor: pointer;
+}
+
+.contentPostLeft{
+    margin-right: 12px;
+}
+
+.contentPostLeft img{
+    max-width: 300px;
+    border-radius: 4px;
+}
+
+.contentPostRight span{
+    font-size: 13px;
+    color: rgb(128, 123, 123);
+}
+
+.contentPostRight p{
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    cursor: default;
+}
