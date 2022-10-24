@@ -2,11 +2,11 @@ import  express  from "express";
 import cors from "cors"
 import bodyParser from "body-parser"
 import mongoose from "mongoose";
-import ProductRouter from "./src/Router/Products.js";
-import LoginRouter from "./src/Router/Login.js";
-import NewsRouter from "./src/Router/News.js";
-import OderRouter from "./src/Router/Oder.js";
-import ContactRouter from "./src/Router/Contact.js";
+import ProductRouter from "./Router/Products.js";
+import LoginRouter from "./Router/Login.js";
+import NewsRouter from "./Router/News.js";
+import OderRouter from "./Router/Oder.js";
+import ContactRouter from "./Router/Contact.js";
 import path from "path";
 
 
